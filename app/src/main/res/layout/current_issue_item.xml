@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:ignore="UseCompoundDrawables">
+
+
+        <TextView
+            android:id="@+id/txtIssueTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/medical_sciences"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/txtIssueAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:text="@string/medical_sciences"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:id="@+id/txtIssueFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="@string/medical_sciences"
+            android:textSize="12sp"
+            android:layout_marginBottom="2dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/txtPDF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="@string/pdf"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                app:drawableStartCompat="@drawable/ic_baseline_picture_as_pdf_24" />
+
+            <TextView
+                android:id="@+id/txtFullText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="@string/full_text"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                app:drawableStartCompat="@drawable/ic_baseline_file_copy_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
