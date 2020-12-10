@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.journals.longdom.ui.fragments.HomeFragment"
+        android:name="com.journals.omicsonline.ui.fragments.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/nav_contact"
-        android:name="com.journals.longdom.ui.fragments.ContactFragment"
+        android:name="com.journals.omicsonline.ui.fragments.ContactFragment"
         android:label="@string/menu_contact"
         tools:layout="@layout/fragment_contact" >
 
@@ -36,7 +36,7 @@
 
     <fragment
         android:id="@+id/categoryFragment"
-        android:name="com.journals.longdom.ui.fragments.CategoryFragment"
+        android:name="com.journals.omicsonline.ui.fragments.CategoryFragment"
         tools:layout="@layout/fragment_category" >
         <action
             android:id="@+id/action_categoryFragment_to_dashBoardFragment"
@@ -44,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashBoardFragment"
-        android:name="com.journals.longdom.ui.fragments.DashBoardFragment"
+        android:name="com.journals.omicsonline.ui.fragments.DashBoardFragment"
         android:label="fragment_dash_board"
         tools:layout="@layout/fragment_dash_board" >
         <action
@@ -72,12 +72,12 @@
     </fragment>
     <fragment
         android:id="@+id/journalHomeFragment"
-        android:name="com.journals.longdom.ui.fragments.JournalHomeFragment"
+        android:name="com.journals.omicsonline.ui.fragments.JournalHomeFragment"
         android:label="fragment_journal_home"
         tools:layout="@layout/fragment_journal_home" />
     <fragment
         android:id="@+id/currentIssueFragment"
-        android:name="com.journals.longdom.ui.fragments.CurrentIssueFragment"
+        android:name="com.journals.omicsonline.ui.fragments.CurrentIssueFragment"
         android:label="fragment_current_issue"
         tools:layout="@layout/fragment_current_issue" >
         <action
@@ -86,7 +86,7 @@
     </fragment>
     <fragment
         android:id="@+id/inPressFragment"
-        android:name="com.journals.longdom.ui.fragments.InPressFragment"
+        android:name="com.journals.omicsonline.ui.fragments.InPressFragment"
         android:label="fragment_in_press"
         tools:layout="@layout/fragment_in_press" >
         <action
@@ -95,7 +95,7 @@
     </fragment>
     <fragment
         android:id="@+id/archiveFragment"
-        android:name="com.journals.longdom.ui.fragments.ArchiveFragment"
+        android:name="com.journals.omicsonline.ui.fragments.ArchiveFragment"
         android:label="fragment_archive"
         tools:layout="@layout/fragment_archive" >
         <action
@@ -104,11 +104,11 @@
     </fragment>
     <fragment
         android:id="@+id/abstractDisplayFragment"
-        android:name="com.journals.longdom.ui.fragments.AbstractDisplayFragment"
+        android:name="com.journals.omicsonline.ui.fragments.AbstractDisplayFragment"
         android:label="AbstractDisplayFragment" />
     <fragment
         android:id="@+id/volumeIssueFragment"
-        android:name="com.journals.longdom.ui.fragments.VolumeIssueFragment"
+        android:name="com.journals.omicsonline.ui.fragments.VolumeIssueFragment"
         android:label="VolumeIssueFragment" >
         <action
             android:id="@+id/action_volumeIssueFragment_to_abstractDisplayFragment"
@@ -116,11 +116,11 @@
     </fragment>
     <fragment
         android:id="@+id/journalContactFragment"
-        android:name="com.journals.longdom.ui.fragments.JournalContactFragment"
+        android:name="com.journals.omicsonline.ui.fragments.JournalContactFragment"
         android:label="Contact Us" />
     <fragment
         android:id="@+id/editorialBoardFragment"
-        android:name="com.journals.longdom.ui.fragments.EditorialBoardFragment"
+        android:name="com.journals.omicsonline.ui.fragments.EditorialBoardFragment"
         android:label="EditorialBoard" >
         <action
             android:id="@+id/action_editorialBoardFragment_to_biographyResearchFragment"
@@ -128,11 +128,11 @@
     </fragment>
     <fragment
         android:id="@+id/instructionsAuthorsFragment"
-        android:name="com.journals.longdom.ui.fragments.InstructionsAuthorsFragment"
+        android:name="com.journals.omicsonline.ui.fragments.InstructionsAuthorsFragment"
         android:label="InstructionsAuthors" />
     <fragment
         android:id="@+id/biographyResearchFragment"
-        android:name="com.journals.longdom.ui.fragments.BiographyResearchFragment"
+        android:name="com.journals.omicsonline.ui.fragments.BiographyResearchFragment"
         android:label="fragment_biography_research"
         tools:layout="@layout/fragment_biography_research" />
 

@@ -13,7 +13,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.journals.longdom"
+        applicationId "com.journals.omicsonline"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
